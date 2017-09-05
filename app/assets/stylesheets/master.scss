@@ -19,10 +19,32 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background: image-url('light_bg.png');
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+
 }
 
 .navbar {
   background: image-url('dark_bg.png');
   box-shadow: 0px 1px 3px #2a2a2a;
 }
+
+.navbar-inverse .navbar-brand {
+  font-family: 'galano_grotesque_demobold', sans-serif;
+  color: #FF7429;
+  font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* I need space at the end of the document! Thank you! */
