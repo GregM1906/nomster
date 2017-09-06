@@ -7,13 +7,14 @@ class PlacesController < ApplicationController
     @place = Place.new
   end
 
-  def pagination
-
+  def create
+    Place.create(place_params)
+    redirect_to root_path
   end
 
-  #
-  # def index
-  # @places = places.order("name").page(params[:page])
-  # end
-  #
+  private
+
+  def place_params
+    params.require(:place).permit(:name, :description, :address)
+  end
 end
