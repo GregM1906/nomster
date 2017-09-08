@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
-
+gem "font-awesome-rails"
 gem 'simple_form'
+gem 'devise'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -63,5 +64,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'will_paginate', '>= 3.1'
-
-gem "font-awesome-rails"
