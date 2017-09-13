@@ -39,6 +39,7 @@ class PlacesController < ApplicationController
 
     @place.update_attributes(place_params)
     if @place.valid?
+    # if @place.valid? && @place.address.valid? && @place.description.valid?
       redirect_to root_path
     else
       render :edit, status: :unprocessable_entity

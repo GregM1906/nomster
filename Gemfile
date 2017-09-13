@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 gem "font-awesome-rails"
 gem 'simple_form'
 gem 'devise'
+gem 'geocoder'
+gem 'figaro'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
