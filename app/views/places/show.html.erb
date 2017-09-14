@@ -37,7 +37,6 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiiiHoKzsiEKyqjV-hYf8XoFz
 <% end %>
 
 <br />
-
   <div class="float-right">
     <% if current_user && current_user == @place.user %>
       <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-primary' %>
