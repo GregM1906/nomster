@@ -53,3 +53,15 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiiiHoKzsiEKyqjV-hYf8XoFz
   <% end %>
 
 </div>
+
+<h1>Comments</h1>
+
+<% @place.comments.each do |comment| %>
+  <div>
+    <blockquote>
+      <b><%= comment.rating %></b> -
+        <%= comment.message %>
+      <small><%= comment.user.email %></small>
+    </blockquote>
+  </div>
+<% end %>
