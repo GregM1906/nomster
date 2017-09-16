@@ -61,7 +61,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiiiHoKzsiEKyqjV-hYf8XoFz
   <div>
     <blockquote>
       <% if comment.humanized_rating.present? %>
-        <b><%= comment.rating %></b> -
+        <b><%= comment.humanized_rating %></b> -
       <% end %>
       <%= comment.message %>
       <small><%= comment.user.email %></small>
