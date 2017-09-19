@@ -9,6 +9,6 @@ Rails.application.routes.draw do
     end
 end
 
-#Rails.application.routes.draw do
-#  root to: "posts#index"
-#end
+Rails.application.routes.draw do
+  root to: 'places#index'
+end
