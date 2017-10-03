@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     a:visited {
-        color: #ff8228;
+        color: #FF7429;
     }
 
     a:hover {
@@ -152,8 +152,21 @@ blockquote p {
     }
 }
 
+//hr { 
+//    display: 
+//    margin-top: 0.5em;
+//    margin-bottom: 0.5em;
+//    margin-left: auto;
+//    margin-right: auto;
+//    border-style: inset;
+//    border-width: 3px;
+//}
 
-
+hr.vertical
+{
+   width: 0px;
+   height: 2px; /* or height in PX */
+}
 
 
 
