@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:3030/users/1 -->
+<html class="gr__localhost"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Nomster</title>
+    <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="lAvGviacPoEXcOa9JNvfdSFEUFmqYsNOF4iF5jLj5k99YkyJ965Y2Kd9cZQqJb+QAs6W8vM9JEM9zzb1GBb/vA==">
+
+    <link rel="stylesheet" media="all" href="./Nomster_files/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" data-turbolinks-track="reload">
+<link rel="stylesheet" media="all" href="./Nomster_files/fonts.self-1bafee1a54374a77ac8a38ab76526d81a55239d09be8fe28d11d00bc21a279da.css" data-turbolinks-track="reload">
+<link rel="stylesheet" media="all" href="./Nomster_files/master.self-3449724cbb44927459ec1f72042b9533f6345755d54936ec7ad17c7c8314cea0.css" data-turbolinks-track="reload">
+<link rel="stylesheet" media="all" href="./Nomster_files/places.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" data-turbolinks-track="reload">
+<link rel="stylesheet" media="all" href="./Nomster_files/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" data-turbolinks-track="reload">
+<link rel="stylesheet" media="all" href="./Nomster_files/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" data-turbolinks-track="reload">
+<link rel="stylesheet" media="all" href="./Nomster_files/application.self-afb36eb6d6e4b0c38ddba594ccf8a1055fc00e3f4d9d8c0b810d150873823004.css" data-turbolinks-track="reload">
+    <script src="./Nomster_files/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/popper.self-ff1a4555394520cb1efb84f3eb940d2a46f77cae1f9867ce81d3b5d443147660.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/action_cable.self-5454023407ffec0d29137c7110917e1e745525ae9afbc05f52104c4cd6597429.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/places.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js" data-turbolinks-track="reload"></script>
+<script src="./Nomster_files/application.self-4d37d7bcf4b0b32507438063ae47ba88dd0178863f7c7a2c7125b221eefea772.js" data-turbolinks-track="reload"></script>
+  </head>
+
+  <body data-gr-c-s-loaded="true">
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:3030/">nomster</a>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:3030/places/new">
+            <i class="fa fa-plus-circle"></i>
+            New Place
+</a>          </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:3030/users/1">My Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" rel="nofollow" data-method="delete" href="http://localhost:3030/users/sign_out">Sign out</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="booyah-box">
+  <div class="row">
+    <div class="col-4">
+      <img src="./Nomster_files/user-b455b42c51461b39cf9d1f77b373f80ad85923197c62d47e80d49339b4b6a1c6.png" alt="User">
+    </div>
+
+    <div class="col-8">
+      <h1>gregmarczak@outlook.com</h1>
+      <h3>Member Since: September 08, 2017</h3>
+      <h4>23 total comments</h4>
+      <h4>15 total 5 star reviews</h4>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+
+<br><br>
+<h1 class="text-center">      <img src="./Nomster_files/comment-8f673f468da5266a0d02cda685c704e76bc1dbe4589c1935291411b455110f69.png" alt="Comment" width="50" height="50">
+My Comments</h1>
+<br><br>
+  <div class="row">
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/20">CN Tower</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          great view
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/20">CN Tower</a></h2>
+        <blockquote>
+          
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/20">CN Tower</a></h2>
+        <blockquote>
+          
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/20">CN Tower</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          best view in toronto
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/20">CN Tower</a></h2>
+        <blockquote>
+            <b>one star</b> -
+          I have a fear of heights so I didn't like it
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/20">CN Tower</a></h2>
+        <blockquote>
+            <b>three stars</b> -
+          it is pretty towerey for a tower
+
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/20">CN Tower</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          zomg, it's like, ya' know, a tower an' shit
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/20">CN Tower</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          if I was ever a tower, I want to be like CN
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/17">new place to test out geocoder</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          this is a comment #1
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/17">new place to test out geocoder</a></h2>
+        <blockquote>
+            <b>one star</b> -
+          this is another comment #2
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/17">new place to test out geocoder</a></h2>
+        <blockquote>
+            <b>three stars</b> -
+          sd dsa s daas fas fads fs a
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/17">new place to test out geocoder</a></h2>
+        <blockquote>
+            <b>four stars</b> -
+          asklsjlklsd akldj lksaj dklsj la  kldaj lkjda slk
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/3">Gimme Sushi Plox</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          zomg that raw fish 
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/3">Gimme Sushi Plox</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          actually good sushi
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/3">Gimme Sushi Plox</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          proper size sashimi. so fresh
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/3">Gimme Sushi Plox</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          delicious and fresh. best in Vanpooper
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/4">Burger in my Mouth Now</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          best beef burger
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/4">Burger in my Mouth Now</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          juicy burgers, not macCrap
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/4">Burger in my Mouth Now</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          if you put it in my mouth, I will eat it
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/5">Jack and Rita - Best Italian</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          great food. great company. also board games
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/6">When the Levi Breaks</a></h2>
+        <blockquote>
+          a pint of beer in great company
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/6">When the Levi Breaks</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h2 class="text-center"><a href="http://localhost:3030/places/7">Caralee’n’Dan - Beer’n’Board Games</a></h2>
+        <blockquote>
+            <b>five stars</b> -
+          great drinks and great drinking company
+          <small>gregmarczak@outlook.com</small>
+        </blockquote>
+      </div>
+  </div>
+
+<div class="clear"></div>
+<br><br>
+
+<hr>
+
+
+<h2 class="text-center"><img src="./Nomster_files/places-585af8d8d9dbf1f00bbf303b4104617022425c0f1570ee9427ce7635b74dc398.png" alt="Places" width="50" height="50">My Places</h2>
+<br>
+
+
+  <div class="booyah-box col-10 offset-1">
+    <h1><a href="http://localhost:3030/places/20">CN Tower</a></h1><br>
+    <i>301 Front St W, Toronto, ON M5V 2T6 </i><br>
+    <p>latitude: 43.6437532, longitude: -79.3889899 close enough</p><br>
+
+      <small>gregmarczak@outlook.com</small>
+
+
+        <div class="col-12">
+          <blockquote>
+              <b>five stars</b> -
+            if I was ever a tower, I want to be like CN
+            <small>gregmarczak@outlook.com</small>
+          </blockquote>
+        </div>
+    </div>
+  <div class="booyah-box col-10 offset-1">
+    <h1><a href="http://localhost:3030/places/3">Gimme Sushi Plox</a></h1><br>
+    <i>371 E Broadway, Vancouver, BC V5T 3M7</i><br>
+    <p>I love smooshi! Raw fish is da best!</p><br>
+
+      <small>gregmarczak@outlook.com</small>
+
+
+        <div class="col-12">
+          <blockquote>
+              <b>five stars</b> -
+            delicious and fresh. best in Vanpooper
+            <small>gregmarczak@outlook.com</small>
+          </blockquote>
+        </div>
+    </div>
+  <div class="booyah-box col-10 offset-1">
+    <h1><a href="http://localhost:3030/places/4">Burger in my Mouth Now</a></h1><br>
+    <i>4 Real Street, Toronto, ON T0T R3L</i><br>
+    <p>Best burgers in the city. They be yummy.</p><br>
+
+      <small>gregmarczak@outlook.com</small>
+
+
+        <div class="col-12">
+          <blockquote>
+              <b>five stars</b> -
+            if you put it in my mouth, I will eat it
+            <small>gregmarczak@outlook.com</small>
+          </blockquote>
+        </div>
+    </div>
+  <div class="booyah-box col-10 offset-1">
+    <h1><a href="http://localhost:3030/places/5">Jack and Rita - Best Italian</a></h1><br>
+    <i>2 Close Street, Vancouver, BC K3K L0L</i><br>
+    <p>Friendly atmosphere and a genuine italian food.</p><br>
+
+      <small>gregmarczak@outlook.com</small>
+
+
+        <div class="col-12">
+          <blockquote>
+              <b>five stars</b> -
+            great food. great company. also board games
+            <small>gregmarczak@outlook.com</small>
+          </blockquote>
+        </div>
+    </div>
+  <div class="booyah-box col-10 offset-1">
+    <h1><a href="http://localhost:3030/places/6">When the Levi Breaks</a></h1><br>
+    <i>1 Way Street, Vancouver, BC D0C 5U5</i><br>
+    <p>A pint of beer and a burger to go with that in great company</p><br>
+
+      <small>gregmarczak@outlook.com</small>
+
+
+        <div class="col-12">
+          <blockquote>
+              <b>five stars</b> -
+            
+            <small>gregmarczak@outlook.com</small>
+          </blockquote>
+        </div>
+    </div>
+  <div class="booyah-box col-10 offset-1">
+    <h1><a href="http://localhost:3030/places/7">Caralee’n’Dan - Beer’n’Board Games</a></h1><br>
+    <i>2 Faraway Street, Vancouver, BC 33K N0M</i><br>
+    <p>If you like board games and beer go to Caralee and Dan to experience both</p><br>
+
+      <small>gregmarczak@outlook.com</small>
+
+
+        <div class="col-12">
+          <blockquote>
+              <b>five stars</b> -
+            great drinks and great drinking company
+            <small>gregmarczak@outlook.com</small>
+          </blockquote>
+        </div>
+    </div>
+  <div class="booyah-box col-10 offset-1">
+    <h1><a href="http://localhost:3030/places/8">Anita &amp; Eugene - Polish and Pool</a></h1><br>
+    <i>1 Dunnowhere Street, Mississauga, ON H3R H1S</i><br>
+    <p>A unique combination of a swimming pool and Polish food experience</p><br>
+
+      <small>gregmarczak@outlook.com</small>
+
+
+    </div>
+  <div class="booyah-box col-10 offset-1">
+    <h1><a href="http://localhost:3030/places/9">Fresh from the Oven</a></h1><br>
+    <i>1 FloorUp Avenue, Mississauga ON</i><br>
+    <p>Chicken soup with actual chicken is a must! Cakes are amazing!</p><br>
+
+      <small>gregmarczak@outlook.com</small>
+
+
+    </div>
+  <div class="booyah-box col-10 offset-1">
+    <h1><a href="http://localhost:3030/places/11">Test Place Nr. 1</a></h1><br>
+    <i>1 AmNotInspired Ave., Cityname, ON, C0D 31N</i><br>
+    <p>test test test test test test test test   </p><br>
+
+      <small>gregmarczak@outlook.com</small>
+
+
+    </div>
+  <div class="booyah-box col-10 offset-1">
+    <h1><a href="http://localhost:3030/places/17">new place to test out geocoder</a></h1><br>
+    <i>8008 Calculator Street, Montreal, QC</i><br>
+    <p>because whatever</p><br>
+
+      <small>gregmarczak@outlook.com</small>
+
+
+        <div class="col-12">
+          <blockquote>
+              <b>four stars</b> -
+            asklsjlklsd akldj lksaj dklsj la  kldaj lkjda slk
+            <small>gregmarczak@outlook.com</small>
+          </blockquote>
+        </div>
+    </div>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- I need space at the end of the document! Thank you! -->
+</body></html>

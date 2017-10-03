@@ -15,7 +15,8 @@
 </div>
 
 <br /><br />
-<h1 class="text-center">My Comments</h1>
+<h1 class="text-center">      <%= image_tag 'comment.png', :size => "50x50" %>
+My Comments</h1>
 <br /><br />
   <div class="row">
     <% @user.comments.each do |comment| %>
@@ -37,8 +38,9 @@
 
 <hr>
 
-<h2 class="text-center">My Places</h2>
-<br /><br />
+
+<h2 class="text-center"><%= image_tag 'places.png', :size => "50x50" %>My Places</h2>
+<br />
 
 
 <% @user.places.each do |place| %>
@@ -65,3 +67,5 @@
       <% end %>
     </div>
 <% end %>
+
+
