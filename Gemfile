@@ -6,7 +6,9 @@ gem 'geocoder'
 gem 'figaro'
 gem 'kaminari'
 gem "bootstrap-kaminari-views"
-
+gem 'paperclip'
+gem 'aws-sdk', '~> 2.3'
+gem 'carrierwave', '~> 1.0'
 
 
 git_source(:github) do |repo_name|
