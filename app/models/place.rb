@@ -8,3 +8,4 @@ class Place < ApplicationRecord
   validates :address, presence: true    
   validates :description, presence: true
 end
+
