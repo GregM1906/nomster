@@ -1,13 +1,12 @@
 source 'https://rubygems.org'
 gem "font-awesome-rails"
 gem 'simple_form'
+gem 'nested_form'
 gem 'devise'
 gem 'geocoder'
 gem 'figaro'
 gem 'kaminari'
 gem "bootstrap-kaminari-views"
-gem 'paperclip'
-gem 'aws-sdk', '~> 2.3'
 gem 'carrierwave', '~> 1.0'
 
 

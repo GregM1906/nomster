@@ -13,7 +13,7 @@ class PlacesController < ApplicationController
     def create
         @place = current_user.places.create(place_params)
         if @place.valid?
-            redirect_to root_path
+            redirect_to place_path(@place.id)
         else
             render :new, status: :unprocessable_entity
         end
@@ -39,9 +39,9 @@ class PlacesController < ApplicationController
     return render text: 'Not Allowed', status: :forbidden
   end
 
-  @place.update_attributes(place_params)
+  @place.update(place_params)
     if @place.valid?
-    redirect_to root_path
+    redirect_to place_path(@place.id)
   else
     render :edit, status: :unprocessable_entity
   end
@@ -60,6 +60,7 @@ end
   private
 
   def place_params
-    params.require(:place).permit(:name, :description, :address)
+    params.require(:place).permit(:name, :description, :address, avatars: [])
   end
+  
 end
