@@ -6,26 +6,7 @@
     <%= f.input :address %>
     <%= f.input :description %>
     <%= simple_nested_form_for @model, :html => { :multipart => true } do |f| %>
-    <%= f.simple_fields_for :avatars do |p| %>
-      <% if p.object.new_record? %>
-        <%= p.file_field :avatar %>
-      <% else %>
-        <%= image_tag p.object.avatar.url(:thumb).to_s %>
-      <% end %>
-
-      <br/>
-
-    <%= p.link_to_remove t(:remove) %>
-    <%= f.link_to_add t(:add), :avatar %>
-
-      <div class="form-actions">
-        <%= f.button :submit, :class => 'btn-primary' %>
-        <%= link_to t('.cancel', :default => t("helpers.links.cancel")), properties_path, :class => 'btn' %>
-      </div>
-    <% end %>
     <br/>
     <%= f.submit 'Create', class: 'btn btn_primary' %>
   <% end %>
 </div>
-
-

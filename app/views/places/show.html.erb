@@ -49,13 +49,13 @@
   <div class="booyah-box col-10 offset-1">
     <h1>Images</h1>
     <br>
-  <% @place.avatars_urls.each do |avatar| %>
-  <%= image_tag avatar %>
+  <% @place.photos.each do |photo| %>
+  <%= image_tag photo.image %>
   <% end %>
-        <h1>Add images</h1>
-      <%= simple_form_for @place do |f| %>
-        <%= f.input :avatars, as: :file, input_html: {multiple: true} %>
-        <br/>
+      <h1>Add images</h1>
+      <%= simple_form_for @place.photos.new, url: place_photos_path(@place) do |f| %>
+        <%= f.input :image, as: :file %>
+      <br/>
         <%= f.submit 'Add', class: 'btn btn_primary' %>
       <% end %>
     </div>
